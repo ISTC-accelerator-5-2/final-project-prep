@@ -1,0 +1,44 @@
+div.card {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 10px;
+  width: 395px;
+  height: 154px;
+  box-shadow: 0px 2px 10px grey;
+}
+
+div.card div.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+}
+
+div.card div.image img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+div.card div.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  height: 100%;
+}
+
+div.card div.text .number {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+}
+
+div.card div.text .description, div.card div.text .percentage {
+  color: #A6ACBE;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}
